@@ -15,6 +15,17 @@ My exploratory data analysis revealed interesting insights into the world of mot
 ## Feature Engineering:
 To enhance the predictive power of my models, I engineered new features from the existing data. This included calculating additional attributes such as driver age at podium finishes and incorporating circuit weather conditions as predictive variables. Feature selection techniques were also employed to identify the most relevant features for model training.
 
+## Data Visualization
+### Example Visualizations:
+1. Podium Counts by Driver:
+   - Bar chart showing the number of podium finishes for each driver in the dataset.
+2. Circuit Popularity:
+   - Pie chart illustrating the distribution of race events across different circuits.
+3. Weather Conditions and Race Outcomes:
+   - Plot depicting the relationship between circuit weather conditions (warm, cold, dry, wet, cloudy) and race outcomes.
+4. Driver Age at Podium Finish:
+   - Histogram showcasing the distribution of driver ages at the time of their podium finishes.
+
 ## Model Selection and Training:
 In my machine learning pipeline, I experimented with several algorithms, including regression and classification models, to predict race outcomes. I evaluated the performance of each model using appropriate metrics and fine-tuned their parameters through cross-validation and grid search techniques. Additionally, ensemble methods such as Random Forest and Gradient Boosting were explored to improve predictive accuracy.
 
